@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jogo Pedra, Papel e Tesoura</h1>
+        <div class="choices">
+          <!-- Cada imagem representa uma escolha: pedra, papel e tesoura -->
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfzrZ3zjRZvqTiE-cEH6xyFI3w5V9wDy_Ocg&s" alt="Pedra" onclick="playGame('pedra')">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG1D_FKpWaDvT-r00ZmlmXbWrBsWOkoJPylw&s" alt="Papel" onclick="playGame('papel')">
+          <img src="https://andrearmarinhos.com.br/wp-content/uploads/2021/11/Tesoura-de-Uso-Geral-9-pol-23-cm-509B-Western-01.jpg" alt="Tesoura" onclick="playGame('tesoura')">
+        </div>
+        <h2 id="result">Faça sua escolha!</h2>
+        <img id="winImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOr5axEOCTkylIipaZZ0YF9g_7LGcuTODrXA&s" alt="Você ganhou!" class="result-image">
+        <img id="loseImage" src="https://t3.ftcdn.net/jpg/05/29/76/16/360_F_529761687_w6ZgCR7oJ8iyoPofo8hPikOw6EM9cp4m.jpg" alt="Você perdeu!" class="result-image">
+      </div>
+</body>
+</html>

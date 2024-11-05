@@ -1,0 +1,13 @@
+.game-container {
+    text-align: center;
+  }
+  .choices img {
+    width: 100px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  .result-image {
+    width: 150px;
+    display: none;
+    margin-top: 20px;
+  }
